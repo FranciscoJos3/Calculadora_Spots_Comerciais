@@ -3,14 +3,14 @@ Este programa deve receber textos para spots comerciais, em um formato que facil
 O programa irá reescrever o texto, com números por extenso, ignorando pontuações, exceto o '.', que, se estiver entre dois digitos alfa-numéricos, será substituído pela palavra 'ponto':
 
 Ex: 
-  Input: Visite nosso site www.blabla.com.br.
+Input: Visite nosso site www.blabla.com.br.
   
-  Output: Visite nosso site www ponto blabla ponto com ponto br
+Output: Visite nosso site www ponto blabla ponto com ponto br
 
 Ex2: 
-  Input: Compre já sua caminhonete 1.8 4x4 com até 20 % de desconto em toda a linha. Vá até a loja mais próxima ou visite o instagram @loja.
+Input: Compre já sua caminhonete 1.8 4x4 com até 20 % de desconto em toda a linha. Vá até a loja mais próxima ou visite o instagram @loja.
   
-  Output: Compre já sua caminhonete um ponto oito quatro por quatro com até vinte por centro de desconto em toda a linha Vá até a loja mais próxima ou visite o instagram arroba loja
+Output: Compre já sua caminhonete um ponto oito quatro por quatro com até vinte por centro de desconto em toda a linha Vá até a loja mais próxima ou visite o instagram arroba loja
   
 Após reescrever, o programa irá contar os caracteres, e exibir uma mensagem final, com as sequintes informações:
 
