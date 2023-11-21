@@ -9,8 +9,8 @@ def clean():
 
 def process():
     text = str(text_entry.get("1.0", tk.END))
-    espCarac = ('/', '(', ')', '+', '=', ':', ';', '[', '{', ']', '}', '|')
-    text = re.sub(espCarac, " ", text)
+    #espCarac = ('/', '(', ')', '+', '=', ':', ';', '[', '{', ']', '}', '|')
+    #text = re.sub(espCarac, " ", text)
     text = text.replace("@", " arroba ")
     text = text.replace("#", " hashtag ")
     text = text.replace("%", " por cento ")
