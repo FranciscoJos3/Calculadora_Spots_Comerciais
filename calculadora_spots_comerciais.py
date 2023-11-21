@@ -96,7 +96,7 @@ def process():
             text = text.replace(ext, numero_por_extenso(ext))
 
     numbers = len(text)
-    seconds = numbers / 72 * 5
+    seconds = numbers / 80 * 5
     response = 'Transcrição\n\n {}\n\n O texto tem {} caracteres \
 e corresponde a um spot de {:.3f} segundos'.format(text, numbers, seconds)
 
